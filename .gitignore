@@ -1,0 +1,28 @@
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Fichiers de sauvegarde
+*.save
+*.bak
+*~
+
+# Bases de données locales
+*.db
+*.sqlite3
+
+# Variables d'environnement / secrets
+.env
+.env.*
+
+# Fichiers OS / éditeur
+.DS_Store
+.vscode/
+.idea/

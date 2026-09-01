@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ module.nom }}</title>
+</head>
+<body>
+    <h1>{{ module.nom }}</h1>
+    <p><strong>Catégorie :</strong> {{ module.categorie }}</p>
+    <p><strong>Description :</strong> {{ module.description }}</p>
+    <p><em>Dernière mise à jour : {{ module.date_maj }}</em></p>
+    <a href="{{ url_for('main.liste_modules') }}">← Retour à la liste</a>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des modules KNX</title>
+</head>
+<body>
+    <h1>Documentation des modules KNX</h1>
+    <a href="{{ url_for('main.nouveau_module') }}">+ Ajouter un module</a>
+    <ul>
+        {% for module in modules %}
+            <li><a href="{{ url_for('main.detail_module', module_id=module.id) }}">{{ module.nom }}</a> ({{ module.categorie }})</li>
+        {% else %}
+            <li>Aucun module enregistré pour l'instant.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
