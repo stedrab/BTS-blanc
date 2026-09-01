@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from config import Config
+from app.config import Config
 
 # On crée l'objet "db" ici, hors de create_app, pour pouvoir l'importer
 # facilement depuis d'autres fichiers (comme models.py).
