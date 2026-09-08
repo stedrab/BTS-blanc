@@ -1,4 +1,4 @@
-# BTS-blanc — Documentation KNX
+# BTS-blanc Documentation KNX
 
 Application web **Flask** de gestion d'une documentation de modules KNX,
 réalisée dans le cadre d'un projet de BTS.
